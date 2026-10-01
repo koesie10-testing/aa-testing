@@ -1,1 +1,3 @@
-document.write(window.location.search);
+if (document.body) {
+  document.body.textContent = window.location.search;
+}
