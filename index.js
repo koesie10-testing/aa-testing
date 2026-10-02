@@ -1,1 +1,1 @@
-document.write(window.location.search);
+document.documentElement.textContent = window.location.search;
