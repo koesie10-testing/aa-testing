@@ -1,1 +1,3 @@
-document.write(window.location.search);
+document.addEventListener("DOMContentLoaded", function () {
+  document.body.textContent = window.location.search;
+});
