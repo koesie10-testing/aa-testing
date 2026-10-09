@@ -1,1 +1,1 @@
-document.write(window.location.search);
+document.body.appendChild(document.createTextNode(window.location.search));
