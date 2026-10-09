@@ -1,1 +1,1 @@
-document.write(window.location.search);
+document.currentScript.insertAdjacentText('afterend', window.location.search);
